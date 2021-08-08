@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "module": "esnext",
+        "baseUrl": "./src",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "sourceMap" : true,
+        "declaration": true,
+        "declarationMap": true,
+        "resolveJsonModule": true,
+        "noEmit" :true,
+        "outDir" : "./dist/js",
+    },
+}
