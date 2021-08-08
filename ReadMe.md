@@ -46,6 +46,10 @@ mkdir -p ${newDir}
 git checkout-index -a -f --prefix=${newDir}/
 cd ${newDir}
 
+# remove unnecessary files
+rm -r ./appendix
+rm ReadMe.md
+
 # initialize new git repo (optional)
 git init
 git add .; git commit -m "start with new boilerplate base"
